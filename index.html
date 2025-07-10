@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bayar ke DANA</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #0d1117, #1f2937);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+      transition: background 1s ease;
+    }
+
+    .card {
+      background: #111827;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+      max-width: 400px;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .qris-img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      transition: transform 0.5s ease;
+    }
+
+    .qris-img:hover {
+      transform: scale(1.05);
+    }
+
+    .number {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Bayar ke DANA</h2>
+    <p class="number">0857-8341-6970</p>
+    <img src="https://files.catbox.moe/o3fmb8.jpg" alt="QRIS DANA" class="qris-img" />
+    <p class="note">Scan QRIS di atas untuk membayar via DANA / eWallet lainnya</p>
+  </div>
+  <footer>
+    &copy; 2025 | Dibuat untuk Yanz Store
+  </footer>
+</body>
+</html>
